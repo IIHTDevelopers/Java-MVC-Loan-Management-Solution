@@ -90,7 +90,7 @@ public class LoanControllerTest {
     }
 
     @Test
-    public void testUpdateLoan() throws Exception {
+    public void testUpdatLoan() throws Exception {
         Loan loan = getLoan();
         when(loanService.getLoanById(loan.getId())).thenReturn(loan);
         MvcResult result = this.mockMvc.perform(post("/loan/" + loan.getId())
