@@ -10,9 +10,9 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.iiht.training.onlinevoting</groupId>
-    <artifactId>springboot-onlinevoting-service</artifactId>
+    <artifactId>springboot-loanmanagement-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-onlinevoting-service</name>
+    <name>springboot-loanmanagement-service</name>
     <description>Online Voting Spring Boot Application</description>
     <properties>
         <java.version>18</java.version> <!-- Set Java version to 18 -->
